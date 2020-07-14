@@ -7,22 +7,18 @@ $(document).ready(function () {
     const music = $("#music").val();
     const sitcom = $("sitcom").val();
 
-    let language;
-    if (color === 'blue') {
-      language = "Ruby";
+    let program;
+    if (animal === 'dog') {
+      program = "Ruby";
+      {
+    if (animal === 'cat' && color === 'red') {
+      progam = "Python";
+    } else {
+      program = "Java Script";
     }
-
-    let language;
-    if (color === 'red') {
-      language = "Java Script";
-    }
-
-    let language;
-    if (color === 'purple') {
-      language = "Python"
-    }
-
-    $("#language").text(language);
+  
+    $("#program").text(program);
     $("#reveal").show();
   });
 });
+
