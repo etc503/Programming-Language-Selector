@@ -2,23 +2,23 @@ $(document).ready(function () {
   $("form#questions").submit(function (event) {
     event.preventDefault();
     const color = $("#color").val();
-    const animal = $("#animal").val();
-    const age = $("#age").val();
-    const music = $("#music").val();
+    const animal = $("#animal").val ();
+    const age = $("#music").val ();
+    const music = $("#music").val ();
     const sitcom = $("sitcom").val();
 
     let program;
     if (animal === 'dog') {
       program = "Ruby";
-      {
-    if (animal === 'cat' && color === 'red') {
-      progam = "Python";
-    } else {
+    }
+    else if (animal === 'cat' && color === 'red') {
+      program = "Python";
+    }
+    else {
       program = "Java Script";
     }
-  
+
     $("#program").text(program);
     $("#reveal").show();
-  });
-});
-
+  })
+})
