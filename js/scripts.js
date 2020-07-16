@@ -20,5 +20,7 @@ $(document).ready(function () {
 
     $("#program").text(program);
     $("#reveal").show();
+
   })
 })
+
