@@ -1,7 +1,42 @@
 .btn {
   display: block;
+  background-color: pink;
+  border-style: double;
+  border-color: black;
+  margin: 25px;
 }
 
 #reveal {
   display: none;
+ }
+
+#program {
+  font-style: bold, italic;
+  background-color: yellow;
+}
+
+#color {
+  display: list-item;
+  margin: 5px;
+}
+
+#animal {
+  display: list-item;
+  margin: 5px;
+}
+
+#age {
+  display: list-item;
+  margin: 5px;
+}
+ 
+
+#music {
+  display: list-item;
+  margin: 5px;
+}
+
+#sitcom {
+  display: list-item;
+  margin: 5px;
 }
